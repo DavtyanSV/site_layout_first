@@ -26,7 +26,7 @@ body {
 }
 
 .container{
-    max-width: 1275px;
+    width: 1170px;
     margin: 0 auto;
     padding: 145;
     margin-bottom: 15px;
@@ -39,9 +39,16 @@ img{
 
 .header{
     padding: 26px 0 48px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
 }
 
 .text_header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 533px;
     font-family: 'Gilroy-Semibold';
     padding: 12px 0;
     font-size: 14px;
@@ -49,6 +56,21 @@ img{
     font-weight: 400;
     line-height: normal;
 
+}
+
+.main{
+    
+    display: flex;
+    gap: 40px;
+    margin-bottom: 162px;
+}
+
+.main_text{
+    width: 522px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: space-around;
 }
 
 .orange {
@@ -64,6 +86,7 @@ h1 {
 }
 
 .text_paragraph {
+    margin-top: 15px;
     color: #888;
     font-family: 'Gilroy-Medium', sans-serif;
     font-size: 20px;
@@ -78,7 +101,9 @@ button {
 }
 
 .buttons{
-    margin-top: 15px;
+    margin-top: 37px;
+    display: flex;
+    gap: 70px;
 }
 
 
@@ -88,6 +113,7 @@ button {
     color: #FFF;
     font-family: Gilroy-Bold;
     font-size: 15px;
+    border: none;
 }
 
 .simple_button{
@@ -100,7 +126,13 @@ button {
 }
 
 .footer{
-    padding: 38px;
+    padding: 97px 0;
+    
+}
+
+.footers{
+    display: flex;
+    justify-content: space-between;
 }
 
 
