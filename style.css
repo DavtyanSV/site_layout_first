@@ -136,4 +136,129 @@ button {
 }
 
 
+.first {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.second_card {
+    background: #FFF;
+box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+.cards{
+    width: 370px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+}
+
+.cards img {
+    margin-top: 40px;
+}
+
+.cards h3 {
+    padding-top: 25px ;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    
+}
+
+.cards p {
+    padding-top: 17px;
+    color: #666;
+font-family: Gilroy-Regular;
+font-size: 15px;
+font-weight: 400;
+line-height: 150%;
+    
+}
+
+.read_more{
+color: #000;
+font-family: Gilroy-Bold;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 16.5px */
+}
+
+.backround{
+    background: #FAFAFA;
+}
+
+.second{
+    padding-top: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second h2 {
+    
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.second_p {
+    text-align: center;
+    color: #666;
+    width: 682px;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 150%; /* 24px */
+    padding-bottom: 30px;
+}
+
+.cells {
+    padding-top: 31px;
+    display: flex;
+    gap: 30px;
+    padding-bottom: 100px;
+    
+}
+
+.rectangle{
+    background: #FFF;
+    padding-top: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.rectangle h4 {
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+}
+
+.rectangle p{
+    padding: 22px 30px 40px;
+    color: #AAA;
+text-align: center;
+font-family: Gilroy-Regular;
+font-size: 15px;
+line-height: 150%; /* 22.5px */
+}
+
+.second_r {
+box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+
+}
+
+.rectangle button {
+    background-color: #F25822;
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    line-height: 150%; /* 19.5px */
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+
 
